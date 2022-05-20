@@ -1,0 +1,271 @@
+/*external css*/
+
+body{
+	background: linear-gradient(to right, gray, #e8e5bc);
+	font-family: Times New Roman;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.wrapper{
+	background-color: #ede8a6;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	border-top: 10px solid #ed9b15;
+	border-bottom: 10px solid #ed9b15;
+}
+
+div.wrapper img{
+	width:100%;
+}
+
+div.header{
+	
+	padding: 20px;
+	
+}
+
+div.nav{
+	margin: 0 auto;
+	padding: 10px;
+	background-color: brown;
+}
+
+div.nav ul{
+	margin: 0px;
+	padding: 10px 0;
+}
+
+div.nav ul li{
+	list-style-type: none;
+	display:inline-block;
+}
+
+div.nav ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 35px;
+	padding: 60px;
+}
+
+div.nav ul li a.active{
+	color: #ede8a6;
+}
+
+div.nav ul li a:hover{
+	color: #fff429;
+}
+
+div.banner{
+	width:100%;
+	height: 250px;
+	border: 2px solid black;
+}
+div.banner img{
+	width: 100%;
+	height: 250px;
+}
+
+div.main{
+	min-height:400px;
+	margin:0px;
+	padding:60px;
+}
+
+
+div.right-side{
+	width:250px;
+	float:right;
+	border: 2px solid black;
+	min-height: 50px;
+	margin: 10px 10px 10px 0px;
+}
+
+div.left-side-bar{
+	width: 400px;
+	float:left;
+	border: 2px solid black;
+	min-height: 50px;
+	margin: 10px 10px 10px 0px;
+	
+}
+
+div.left-side-bar h2{
+	margin: 10px;
+	padding: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	color: brown;
+}
+
+div.left-side-bar ul{
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px;
+}
+
+div.left-side-bar ul li{
+	margin:10px;
+	text-align: center;
+	border-bottom: 1.5px solid white;
+}
+
+div.left-side-bar ul li a{
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color:white;
+	background-color: brown;
+}
+div.left-side-bar ul li a:hover{
+	color:#fff429;
+}
+
+
+
+div.places{
+	min-height: 350px;
+	padding: 20px;
+}
+
+
+div.middle{
+	width: 50%;
+	margin: auto;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+div.middle h2{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	color: brown;
+}
+
+div.middle ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+div.middle ul li{
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+
+div.middle ul li a{
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background-color: brown;
+}
+
+div.middle ul li a:hover{
+	color:#fff429;
+}
+
+div.content{
+	width: 900px;
+	float: left;
+	min-height: 300px;
+	margin: 10px;
+}
+
+div.content h1{
+	padding: 0px;
+	margin: 2px;
+	color: brown;
+	font-size: 30px;
+	text-align: center;
+}
+
+div.content{
+	color:black;
+}
+
+div.content p{
+	text-align: justify;
+	line-height:1.5;
+}
+
+div.footer{
+	clear: both;
+	border-top: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+div.footer p{
+	font-weight: bold;
+}
+div.footer img{
+	width:50px;
+	
+}
+
+
+div.Tour1{
+	text-align: justify;
+	line-height: 1.5;
+	margin: 10px;
+	padding: 0;
+}
+
+div.Tour1 h2{
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+div.Tour1 img{
+	display:block;
+	margin: 0 auto;
+	width: 50%;
+	border: 2px solid black;
+}
+div.Tour1 img:hover{
+	transform: scale(1.5);
+
+}
+
+
+div.Tour1 h4{
+	text-align:center;
+}
+div.Tour1 h4 a{
+	color: maroon;
+}
+
+div.About-us h2{
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+div.About-us h4{
+	text-align:center;
+	font-size:30px;
+}
+
+div.Contact img{
+	padding: 10px;
+	margin: 5px;
+	width: 70px;
+	display: table-row;
+	margin: 0 auto;
+	border: 2px solid black;
+}
