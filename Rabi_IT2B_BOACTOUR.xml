@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+
+<!DOCTYPE BOAC-TOUR[
+	<!ELEMENT home (menu)>
+	<!ELEMENT menu (whatisboac, whereisboac, history)>
+	<!ELEMENT tours (tour)>
+	<!ELEMENT tour (title, image, h4, p)>
+	<!ELEMENT h4 (a)>
+	<!ELEMENT about (name, info)>
+	<!ELEMENT contact (image1, image2)>
+	
+	<!ELEMENT whatisboac (#PCDATA)>
+	<!ELEMENT whereisboac (#PCDATA)>
+	<!ELEMENT history (#PCDATA)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT image (#PCDATA)>
+	<!ELEMENT h4 (#PCDATA)>
+	<!ELEMENT a (#PCDATA)>
+	<!ELEMENT p (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT info (#PCDATA)>
+	<!ELEMENT image1 (#PCDATA)>
+	<!ELEMENT image2 (#PCDATA)>
+
+
+	<!ATTLIST tour no CDATA #REQUIRED>
+	<!ATTLIST title id CDATA #REQUIRED>
+	<!ATTLIST a href CDATA #REQUIRED>
+
+]>
+
+
+<BOAC-TOUR>
+	<home>
+		<menu>
+			<whatisboac>
+			According to the website of Marinduque, Boac, officially the Municipality of Boac (Tagalog: Bayan ng Boac), is a 1st class municipality and capital of the province of Marinduque, Philippines. According to the 2020 census, it has a population of 57,283 people making the Most populous town in Marinduque.
+			Additionally,it is a heritage town in its own right, is known as one of the main venues of the annual Moriones Festival and is the location of a number of historical sites in Marinduque including the Boac Cathedral fortress church, Casa Real and the Liwasan ng Kalayaan, Laylay Port, and the Battle of Paye site. The municipality is also home to the Marinduque Branch of the National Museum of the Philippines.
+			Moreover, Boac is the third largest of the six municipalities of the province of Marinduque, after Santa Cruz and Torrijos. It borders all the municipalities of the province: Mogpog to the north, Santa Cruz to the Northeast, Torrijos to the East, Buenavista to the South and Gasan to the South Southwest. The municipality is generally hilly, rugged and mountainous in the south and eastern part with thin strips of flat and farm lands and long shoreline in the west. The longest and largest river, Boac River, which gets its source in the mountainous forest in the extreme southwest and spills off to the northern shore of Boac, divides the municipality into two geographical areas: north and south.
+			</whatisboac>
+
+			<whereisboac>
+			Situated in the western coast of Marinduque Island, the municipality is bordered in the north by the municipality of Mogpog, in the west by the Tayabas Bay and Sibuyan Sea, in the east by the municipality of Torrijos, and in the south by the municipalities of Gasan and Buenavista.
+			</whereisboac>
+
+			<history>
+			In the early years of Spanish colonization in Marinduque, it was first mentioned in Miguel de Loarca's Relacion de las Yslas Filipinas (1582-1583) that the natives of the island are Pintados or tattooed people resembling those from the Camarines Provinces and the Visayan Islands.
+			In 1580, the first visita was established in the island of Marinduque and was called Montserrat de Marinduque in what is now the municipality of Boac; this visita was governed by Fray Alonzo Banol as minister.In 1621, Spanish Jesuit missionaries brought a three-foot Marian image to Boac which will later be known as the Mahal na Ina ng Biglang Awa. Notorious for their sea raids, a group of Muslim pirates from the southern Philippines sieged Boac in the mid-17th century along the shores of Laylay and eventually into the Poblacion located along the Boac River. In panic, the locals took refuge in the fortress church of Boac as able-bodied men defended the outer walls against the attacks. Many locals were killed and, by the third day of siege, the surviving locals began to run short on food and the capture of the fortress became imminent. As an act of faith, the survivors prayed fervently at the throne of Mary, asking her to deliver them from these enemies.According to legends, a very strong storm with torrential rain, thunder, and lightning engulfed the area and at its very height, it was reported that the image of a beautiful lady with outstretched arms appeared standing on the top of the fortress wall. Terrorized, the pirates fled in confusion to their vintas and left the island. Since then, the image of Mary has been honoured and given the title Biglang Awa. To commemorate this miracle, the old image brought by the Jesuits in Boac was placed in a shrine erected on the portion of the wall where Mary is said to have appeared.
+			In 1942, Boac was occupied by Japanese troops. In 1945, the Battle of Marinduque began and the American-Philippine Commonwealth troops landed in Boac after the war was built of the general headquarters of the Philippine Commonwealth Army and Philippine Constabulary from 1945 to 1946 station in this municipality.The Provincial Government of Marinduque under Gov. Carmencita O. Reyes built a larger-than-life-size image of the Our Lady of Biglang Awa in cement and placed in the seashore in Balanacan Port to welcome travelers to the island. On May 10, 2008, the Diocese of Boac celebrated the 13th anniversary and the golden anniversary of the canonical coronation of Mahal na Birhen ng Biglang-Awa (1958–2008). Cebu Archbishop-Cardinal Ricardo Vidal of Mogpog, Marinduque, officiated at the consecrated mass.
+			</history>
+		</menu>
+	</home>
+
+	<tours>
+		<tour no="1">
+			<title id="1">Boac Cathedral</title>
+			<image>img src="images/tour1.jpg"</image>
+			<h4> source: <a href="https://en.wikipedia.org/wiki/Boac_Cathedral"> Boac Cathedral Image Link</a> </h4>
+            <p> The Immaculate Conception Cathedral Parish (Filipino: Parokyang Katedral ng Kalinis-linisang Paglilihi), commonly referred to as Boac Cathedral, is a Roman Catholic church and cathedral in the town center of Boac, Marinduque, in the Mimaropa region of the Philippines.The seat of the Diocese of Boac, the cathedral today is surrounded by its likewise centuries-old defensive walls, and was declared a Philippine Important Cultural Property (ICP) in 2018 by the national museum of the country.</p>
+		</tour>
+
+		<tour  no="2">
+			<title id="2">Casa Real</title>
+            <image>img src="images/tour2.jpg"></image>
+            <h4> source: <a href="https://vymaps.com/PH/Casa-Real-373335/"> Casa Real Image Link </a> </h4>
+            <p>The old Casa Real used to be the official residence of the Gobernadorcillo and Gobernador, that, is, the Spanish Governor who made annual visits when Marinduque was under the 18th to the 19th century administration of Mindoro province. Town officials led by the Gobernadorcillo (Boac had its first Gobernadorcillo, town head, in 1735, in the person of Matias de Belen), would gather at the Port of Laylay to await his arrival, with people lining up the streets from Santol to the Casa Real for this day of celebration. Houses would display Spanish flags made of sinamay to greet some 50 horseback-riding uniformed men cuadrilleros, policemen, in gala, as paso-doble is played by a brass band.</p>
+		</tour>
+
+		<tour  no="3">
+			<title id="3">Boac National Museum</title>
+            <image> img src="images/tour3.jpg"</image>
+            <h4> source: <a href="https://www.nationalmuseum.gov.ph/our-museums/regional-area-and-site-museums/marinduque-romblom/">Boac National Museum Image Link </a> </h4>
+            <p>  The branch museum is housed in an old Spanish building that used to be a municipal court and library.  Its collection includes materials reflecting the heritage and history of the region. On display are agricultural implements, pottery molds, bamboo tuba (coconut wine) containers, modern wood carvings, precolonial tradeware ceramics from China, local geologic materials like minerals, fossilized shells and rocks.  Highlights of the collection are the wooden percussion intrument kalutang  and Moriones festival masks and costumes.  The Moriones festival is a Lenten tradition in Marinduque that centers on Longinus, the one-eyed Roman centurion who got back his full sight when blood of the crucified Jesus spurted into his blind eye.</p>
+		</tour>
+
+		<tour  no="4">
+			<title id="4">Biglang Awa Bridge</title>
+            <image>img src="images/tour5.jpg" </image>
+            <h4> source: <a href="https://www.google.com/url?sa=iurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLfATGew78JYpsig=AOvVaw1F9AvCKkuH1PxSigSsqvArust=1653037989246000source=imagescd=vfeved=0CAwQjRxqFwoTCOCJscec6_cCFQAAAAAdAAAAABAD">Biglang Awa Image Link </a> </h4>
+            <p>According to legends, a very strong storm with torrential rain, thunder, and lightning engulfed the area and at its very height, it was reported that the image of a beautiful lady with outstretched arms appeared standing on the top of the fortress wall. Terrorized, the pirates fled in confusion to their vintas and left the island. Since then, the image of Mary has been honoured and given the title Biglang Awa. To commemorate this miracle, the old image brought by the Jesuits in Boac was placed in a shrine erected on the portion of the wall where Mary is said to have appeared.</p>
+		</tour>
+
+		<tour  no="5">
+			<title id="5">Laylay Port</title>
+            <image>img src="images/tour6.jpg" </image>
+            <h4> source: <a href="https://www.google.com/url?sa=iurl=https%3A%2F%2Fzh-cn.facebook.com%2Fgwapongmarinduque%2Fposts%2Fbeautiful-sunset-at-laylay-port-boacphotos-courtesy-bypatrick-dave-herrera-zolet%2F2803574053029187%2Fpsig=AOvVaw2LY-0qaMQRzQaYa9myGZMgust=1653038562913000source=imagescd=vfeved=0CAwQjRxqFwoTCJCNsNue6_cCFQAAAAAdAAAAABAJ">Laylay Port Image Link </a> </h4>
+            <p>  Daungan ng Laylay, which, due to its strategic location, served as the landing port during the Spanish, American and Japanese periods of colonization. It was also the site where Governor General Leonard Wood landed on December 10, 1922, Governor General Roosevelt on April 10, 1932 and other national personages on various occasions.</p>
+		</tour>
+
+		<tour  no="6">
+			<title id="6">Battle of Paye</title>
+            <image>img src="images/tour8.jpg" </image>
+            <h4> source: <a href="https://www.google.com/url?sa=iurl=https%3A%2F%2Fwww.tripadvisor.com.ph%2FAttraction_Review-g1026955-d3654232-Reviews-Battle_of_Paye_Marker-Marinduque_Island_Mimaropa.htmlpsig=AOvVaw09ALzBETJbeF0cFE-rgihLust=1653039169763000source=imagescd=vfeved=0CAwQjRxqFwoTCJCM2f-g6_cCFQAAAAAdAAAAABAD"> Battle of Paye Image Link </a> </h4>
+           	<p>The Battle of Paye, also known as the Battle of San Mateo, was a battle during the Philippine–American War between the United States and the Philippines. It was fought on December 19, 1899, near San Mateo in what was then Manila province (now Rizal) between the forces of General Henry Ware Lawton, and General Licerio Gerónimo's Morong Command battalion and the Tiradores de la Muerte. Lawton was killed in the battle, making him the highest-ranking American commander to die in the Philippine conflict.On December 18, Lawton and his men were en route to San Mateo along the Marikina River in a punitive expedition against Brig. Gen. Pio del Pilar's 1,000 force, which threatened the Marikina waterworks and the Manila wagon road to the north.Lawton's force included Col. James R. Lockett's squadron of the 11th Volunteer Cavalry and Lt. Col. H.H. Sargent's 29th Battalion. A monsoon flooded the river and muddied the trail</p>
+		</tour>
+
+		<tour  no="7">
+			<title id="7">Trivinios' House</title>
+            <image>img src="images/tour7.jpg" </image>
+            <h4> source: <a href="https://www.pinoyadventurista.com/2011/07/heritage-houses-in-boac-marinduque.html">Trivinios' HouseImage Link </a> </h4>
+            <p>It was built on the year 1883 by Vicente Trivinio. This house became popular because the prominent people like late Pres. Sergio Osmena lived on this house.</p>
+		</tour>
+
+		<tour  no="8">
+			<title id="8">Casa Narvas</title>
+            <image>img src="images/tour9.jpg" </image>
+            <h4> source: <a href="https://vymaps.com/PH/Casa-Real-373335/"> Casa Narvas Image Link </a> </h4>
+            <p>It was built in 1920, by Elias Narvas, a local coconut trader in those bygone years, and was called ‘bahay na bato’ also characterized by its massive red hardwood flooring, a balaustre and an azotea of Spanish and Chinese influence. It’s design included capiz-shelled sliding windows and stained glass walls. Narvas’ wife was named Vicenta Miciano Narvas and the house is said to have been built in memory of Bartolome and Hilda Narvas, Elias’ parents. During those years it became a hub for social and political gatherings being in the town center. Some dignitaries both foreign and local have dropped by this house to attend a ceremony or to be hosted for a while as house guests.Among these eminent personalities were Leonard Wood who was Governor-General of the Philippines  from 1921-1927, former Philippine Presidents Manuel L. Quezon, Jose P. Laurel, Manuel A. Roxas and Elpidio Quirino.</p>
+		</tour>
+	</tours>
+
+
+	<about>
+		<name>Boac Tour</name>
+		<info> "Provides information and knowledge about the tourists spots most-likey the ancestral buildings that have contribute to history of Boakeños."-Lark Louie Rabi-BSI/T-2B</info>
+	</about>
+
+
+	<contact>
+		<image1>img src="images/fb.jpg"</image1>
+		<image2>img src="images/ig.jpg"</image2>
+	</contact>
+
+
+</BOAC-TOUR>
